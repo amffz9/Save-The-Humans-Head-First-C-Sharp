@@ -24,7 +24,7 @@
             <RowDefinition/>
             <RowDefinition Height="160"/>
         </Grid.RowDefinitions>
-        <Button x:Name="startButton" Content="Start!" Grid.Row="1" Click="startButton_Click"/>
+        <Button x:Name="startButton" Content="Start!" Grid.Row="1" Click="startButton_Click" HorizontalAlignment="Center"/>
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="1">
             <TextBlock TextWrapping="Wrap" Text="Avoid These" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="30" HorizontalAlignment="Center"/>
             <ContentControl Content="ContentControl" Template="{StaticResource EnemyTemplate}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
