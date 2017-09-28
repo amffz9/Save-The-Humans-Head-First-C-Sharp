@@ -12,8 +12,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.ViewManagement;
+using Windows.Foundation.Metadata;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Save_the_Humans
 {
@@ -25,6 +27,13 @@ namespace Save_the_Humans
         public MainPage()
         {
             this.InitializeComponent();
+
+
+        }
+
+        private void startButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddEnemy();
         }
     }
 }
